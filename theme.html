@@ -120,6 +120,16 @@
         {% endif %}
 
         {% if posts %}
+
+        {% if not is_tag %}
+        {% if pagination.next or pagination.prev %}
+        <div class="pagination">
+          {% if pagination.prev %}<a href="{{ pagination.prev }}" class="prev">&laquo; Previous</a>{% endif %}
+          {% if pagination.next %}<a href="{{ pagination.next }}" class="next">Next &raquo;</a>{% endif %}
+        </div>
+        {% endif %}
+        {% endif %}
+
         <div class="posts">
           {% for post in posts %}
           <div class="item">
@@ -143,16 +153,7 @@
           {% endfor %}
         </div>
 
-        {% if not is_tag %}
-        {% if pagination.next or pagination.prev %}
-        <div class="pagination">
-          {% if pagination.prev %}<a href="{{ pagination.prev }}" class="prev">&laquo; Previous</a>{% endif %}
-          {% if pagination.next %}<a href="{{ pagination.next }}" class="next">Next &raquo;</a>{% endif %}
-        </div>
-        {% endif %}
-        {% endif %}
-
-        {% endif %}
+        {% endif %}<!-- end if posts-->
 
       {% elif post %}
 
