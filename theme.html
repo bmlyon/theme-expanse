@@ -30,14 +30,14 @@
     </script>
     {% endif %}
   </head>
-  <body{% if is_post or is_tag or is_page %} class="short-header"{% endif %}>
+  <body class="short-header">
 
     {% if is_login %}
 
     {{ login_form }}
 
     {% else %}
-    <header{% if is_post %} class="short"{% endif %}>
+    <header class="short">
       <div class="bg"></div>
       <div class="spinner"></div>
       <div class="shadow top"></div>
