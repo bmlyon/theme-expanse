@@ -1145,7 +1145,7 @@ h3.tag-header {
 }
 .pagination {
   display: block;
-  padding: 100px 0 0 0;
+  padding: 0px 0 0 0;
   margin: 0;
   clear: both;
   font-size: 0.85rem;
