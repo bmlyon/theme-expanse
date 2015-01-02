@@ -422,6 +422,9 @@ header .overlay {
     filter: alpha(opacity=100);
   }
 }
+.bio {
+  display:none;
+}
 /*.bio {
   display: block;
   position: absolute;
