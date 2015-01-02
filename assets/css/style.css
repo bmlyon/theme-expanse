@@ -545,7 +545,7 @@ header .overlay {
   filter: alpha(opacity=100);
   top: -210px;
 }
-body.short-header header {
+/*body.short-header header {
   height: 130px;
 }
 body.short-header .bio .arrow {
@@ -558,7 +558,7 @@ body.short-header .bio .user-avatar-hover {
 }
 body.short-header .bio.doHover .user-avatar-hover {
   top: 90px;
-}
+}*/
 footer {
   position: relative;
   display: block;
