@@ -211,7 +211,7 @@ header .shadow {
   width: 100%;
   height: 225px;
 }
-header .shadow.top {
+/*header .shadow.top {
   top: -55px;
   background: transparent;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, transparent), color-stop(1, #000000));
@@ -219,7 +219,7 @@ header .shadow.top {
   background: -moz-linear-gradient(center bottom, transparent 0%, #000000 100%);
   background: -o-linear-gradient(#000000, transparent);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='transparent', GradientType=0);
-}
+}*/
 header .spinner {
   -webkit-animation: rotation 2s infinite ease-in-out;
   -moz-animation: rotation 2s infinite ease-in-out;
