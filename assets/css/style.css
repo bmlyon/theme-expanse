@@ -75,16 +75,16 @@ h4 {
   font-weight: 300;
 }
 h1 {
-  font-size: 2rem;
-  line-height: 2.4rem;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
 }
 h2 {
-  font-size: 1.4rem;
-  line-height: 1.8rem;
+  font-size: 1.8rem;
+  line-height: 2.0rem;
 }
 h3 {
-  font-size: 1.2rem;
-  line-height: 1.6rem;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
 }
 a {
   cursor: pointer;
@@ -673,8 +673,8 @@ a.btn.btn-mini:hover {
   margin: 0;
 }
 .post .post-title {
-  font-size:1.4rem;
-  line-height:1.8rem;
+  font-size:2.2rem;
+  line-height:2.6rem;
   margin:0;
   padding:0;
 }
