@@ -1172,7 +1172,7 @@ h3.tag-header {
 }
 .pagination a {
   display: block;
-  /*color: #afb7b5;*/
+  color: #cccccc;
   padding: 0;
   margin: 0;
 }
