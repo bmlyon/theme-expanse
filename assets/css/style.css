@@ -1183,6 +1183,9 @@ h3.tag-header {
   float: right;
   text-align: right;
 }
+.post-footer + .pagination {
+  margin-top:62.5px;
+}
 /* Less than 900px width */
 @media screen and (max-width: 900px) {
   .container {
