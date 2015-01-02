@@ -80,7 +80,7 @@ h1 {
 }
 h2 {
   font-size: 1.4rem;
-  line-height: 2.8rem;
+  line-height: 1.8rem;
 }
 h3 {
   font-size: 1.2rem;
@@ -673,8 +673,8 @@ a.btn.btn-mini:hover {
   margin: 0;
 }
 .post .post-title {
-  font-size:2rem;
-  line-height:2.8rem;
+  font-size:1.4rem;
+  line-height:1.8rem;
   margin:0;
   padding:0;
 }
