@@ -46,10 +46,10 @@ a {
   -moz-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #37cca2;
+  color: #DB1010;
 }
 a:hover {
-  color: #0e3029;
+  color: #cccccc;
 }
 .left {
   float: left;
@@ -278,7 +278,7 @@ header h1 a {
   color: #ffffff;
 }
 header h1 a:hover {
-  color: #37cca2;
+  color: #aaaaaa;
 }
 header ul {
   text-align: right;
