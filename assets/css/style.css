@@ -672,6 +672,7 @@ a.btn.btn-mini:hover {
   font-size:2rem;
   line-height:2.8rem;
   margin:0;
+  padding:0;
 }
 .post .post-footer {
   display: block;
