@@ -124,7 +124,7 @@
         <div class="posts">
           {% for post in posts %}
           <div class="item">
-              <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+              <h3 class="post-title"><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
 
               {% if not is_tag %}
               {% if pagination.next or pagination.prev %}
@@ -159,7 +159,7 @@
       {% elif post %}
 
         <div class="post-content">
-          <h3>{{ post.title }}</h3>
+          <h3 class="post-title">{{ post.title }}</h3>
           <div data-type-cleanup="true">
             {{ post.content }}
             {% if post.type == 'link' or post.type == 'webclip' %}
