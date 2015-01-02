@@ -668,6 +668,9 @@ a.btn.btn-mini:hover {
   padding: 12.5px 0 12.5px 0;
   margin: 0;
 }
+.post-title {
+  margin:0;
+}
 .post .post-footer {
   display: block;
   clear: both;
