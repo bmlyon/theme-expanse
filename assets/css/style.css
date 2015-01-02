@@ -89,10 +89,10 @@ h3 {
 a {
   cursor: pointer;
   text-decoration: none;
-  color: #0e3029;
+  color: #DB1010;
 }
 a:hover {
-  color: #37cca2;
+  color: #aaaaaa;
 }
 body {
   padding: 0;
