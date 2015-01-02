@@ -153,6 +153,14 @@
               </div>
               <div class="dots"><span></span><span></span><span></span></div>
           </div>
+
+          {% if pagination.next or pagination.prev %}
+          <div class="pagination">
+            {% if pagination.prev %}<a href="{{ pagination.prev }}" class="prev">&laquo; Previous</a>{% endif %}
+            {% if pagination.next %}<a href="{{ pagination.next }}" class="next">Next &raquo;</a>{% endif %}
+          </div>
+          {% endif %}
+
           {% endfor %}
         </div>
 
