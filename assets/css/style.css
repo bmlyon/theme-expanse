@@ -862,6 +862,9 @@ a.btn.btn-mini:hover {
   float: left;
   text-align: left;
 }
+.post-author {
+  display:none;
+}
 .post-author img {
   display: block;
   float: left;
@@ -896,7 +899,7 @@ a.btn.btn-mini:hover {
   font-size: 0.85rem;
   font-family: 'Roboto';
   font-weight: 400;
-  color: #37cca2;
+  /*color: #37cca2;*/
 }
 .post-options {
   width: 50%;
