@@ -1,12 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700,300italic,400italic,500italic);
 @import url(http://postach.io/static/themes/_assets/symbolset/ss-pika.css);
-/*---------------------------------------------------
-    LESS Elements 0.9.1
-  ---------------------------------------------------
-    A set of useful LESS mixins
-    More info at: http://lesselements.com
-    MODIFIED BY: Brandon Brown
-  ---------------------------------------------------*/
+
+/*
+This file has been modified by Brandon Lyon and is no longer using LESS
+*/
+
 * html .clearfix {
   zoom: 1;
 }
@@ -945,6 +943,7 @@ div.posts div.item .post-content {
   display: block;
   /* find this in _assets/less/elements.less */
 }
+/*
 div.posts div.item .post-content ul,
 div.posts div.item .post-content ol,
 div.posts div.item .post-content li,
@@ -1140,6 +1139,7 @@ div.posts h3 a.like:hover {
 div.posts h3 a.like:hover span {
   color: #37cca2;
 }
+*/
 h3.tag-header {
   padding-bottom: 50px;
 }
