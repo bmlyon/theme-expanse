@@ -298,12 +298,11 @@ header ul li a {
   color: #ffffff;
 }
 header ul li a:hover {
-  color: #37cca2;
+  color: ##DB1010;
 }
 header ul li a:hover,
 header ul li a.active {
-  color: #37cca2;
-  border-bottom: 2px solid #37cca2;
+  color: #DB1010;
 }
 header .overlay {
   position: absolute;
