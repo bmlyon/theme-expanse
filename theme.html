@@ -52,6 +52,25 @@
             {% endfor %}
         </ul>
         {% endif %}
+
+<div class="nav-tags-header">
+  <ul class="nav">
+
+    {% if pages %}
+      {% for page in pages %}
+        <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
+      {% endfor %}
+    {% endif %}
+
+    <li><a href="/tag/all" class="{{ set_active('/tag/all') }}">All</a></li>
+    <li><a href="/tag/weddings" class="{{ set_active('/tag/weddings') }}">Weddings</a></li>
+    <li><a href="/tag/portraits" class="{{ set_active('/tag/portraits') }}">Portraits</a></li>
+    <li><a href="/tag/pets" class="{{ set_active('/tag/pets') }}">Pets</a></li>
+    <li><a href="/tag/nature" class="{{ set_active('/tag/nature') }}">Nature</a></li>
+
+  </ul>
+</div>
+
       </div>
     </header>
 
