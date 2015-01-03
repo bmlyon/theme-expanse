@@ -134,13 +134,11 @@
           <div class="item">
               <h3 class="post-title"><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
 
-              {% if not is_tag %}
               {% if pagination.next or pagination.prev %}
               <div class="pagination">
                 {% if pagination.prev %}<a href="{{ pagination.prev }}" class="prev">&laquo; Previous</a>{% endif %}
                 {% if pagination.next %}<a href="{{ pagination.next }}" class="next">Next &raquo;</a>{% endif %}
               </div>
-              {% endif %}
               {% endif %}
 
               <div class="post-content" data-type-cleanup="true">
