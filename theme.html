@@ -76,7 +76,7 @@
 
 
 
-      {% if is_tag %}
+      {% if is_home or is_tag %}
 
         {% if is_tag %}
         <!--<h3 class="tag-header">Showing all posts tagged "{{ tag|format_tag(False, True) }}"</h3>-->
@@ -113,25 +113,6 @@
         </div>
 
         {% endif %}<!-- end if posts-->
-
-
-
-
-
-
-
-
-
-
-      {% elif is_home %}<!--else if-->
-        <div class="posts">
-           <div class="item">
-              <h3 class="post-title"></h3>
-              <div class="post-content">
-                <p>Lorem ipsum</p>
-              </div>
-           </div>
-        </div>
 
 
 
